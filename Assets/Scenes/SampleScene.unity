@@ -757,7 +757,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1242529669
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -833,18 +833,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88dbc52f4c238a04eab6c502fef1a1c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runMaxSpeed: 10
-  runAccelAmount: 2
-  runDeccelAmount: 1
-  JumpPower: 7
+  runMaxSpeed: 7.5
+  runAccelAmount: 4
+  runDeccelAmount: 5
+  JumpPower: 10
   CoyoteTime: 0.5
   minimumJumpingTime: 0.1
-  maximumJumpingTime: 0.75
+  maximumJumpingTime: 0.6
   legCollider: {fileID: 1488412475}
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
-  gravityMult: 1.2
+  gravityMult: 5
 --- !u!1 &1488412474
 GameObject:
   m_ObjectHideFlags: 0
