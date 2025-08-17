@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// MonoBehaviour 상속받는 싱글톤 클래스 
+/// </summary>
 public abstract class SingletonMonoBehaviour<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T instance;
