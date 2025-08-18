@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7106ec64-07f9-4d0e-9fd5-1eb43085642c" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0_COMMON/Scripts/SingletonMonoBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_COMMON/Scripts/SingletonMonoBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1755346324268</updated>
       <workItem from="1755346325685" duration="7279000" />
-      <workItem from="1755440239574" duration="2990000" />
+      <workItem from="1755440239574" duration="3678000" />
+      <workItem from="1755529522721" duration="1590000" />
     </task>
     <servers />
   </component>
