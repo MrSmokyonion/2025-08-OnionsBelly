@@ -1,5 +1,8 @@
 using System;
+using System.Collections;
+using System.Numerics;
 using UnityEngine;
+using Vector2 = UnityEngine.Vector2;
 
 /// <summary>
 /// 플레이어의 이동을 처리하는 클래스.
@@ -28,6 +31,11 @@ public class PlayerMovement : MonoBehaviour
     /// <summary>점프 최대 가능 횟수</summary>
     public int maxJumps;
     
+    [Header("Dash Variables")]
+    public float dashSpeed;
+    public float dashCooldown;   
+    public float dashTime = 0.2f;         // 대쉬 지속 시간 (추가로 설정 가능)
+    
     /// <summary>바닥 확인하는 충돌체</summary>
     [Header("Ground Check Variables")]
     public Collider2D legCollider;
@@ -40,6 +48,9 @@ public class PlayerMovement : MonoBehaviour
     public Collider2D wallColliderRight;
     /// <summary>벽 레이어</summary>
     public LayerMask wallLayer;
+    
+    [HideInInspector] public Action OnDashStart;
+    [HideInInspector] public Action OnDashEnd;
 
     /// <summary>이동 방향</summary>
     private float direction;
@@ -61,6 +72,10 @@ public class PlayerMovement : MonoBehaviour
     private float defaultgrav;
     /// <summary>떨어질 때 중력 가속 곱연산 배수</summary>
     [SerializeField] float gravityMult;
+
+    private bool canDash;
+    private bool isDashing;        // 대쉬 중 여부
+    private float dashDirection;      // 대쉬 방향 저장
     
     private Rigidbody2D rigidbody;
     
@@ -71,6 +86,8 @@ public class PlayerMovement : MonoBehaviour
         direction = 0;
         coyoteTimeCounter = 0;
         defaultgrav = rigidbody.gravityScale;
+        isDashing = false;
+        canDash = true;
     }
 
     private void OnEnable()
@@ -86,12 +103,18 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // 대쉬 중이면 이동/점프 로직 실행하지 않음
+        if (isDashing)
+        {
+            return;
+        }
+        
         //점프~착지 처리
         if (isOnGround())
         {
             coyoteTimeCounter = CoyoteTime;
             jumpCount = 0;
-            Debug.Log("Player is On Ground");
+            //Debug.Log("Player is On Ground");
         }
         else
         {
@@ -201,6 +224,15 @@ public class PlayerMovement : MonoBehaviour
                 
                 break;
             
+            case InputHandler.InputActionType.Dash:
+                if (!canDash) break;
+                if (!isDashing) // 중복 대쉬 방지
+                {
+                    dashDirection = direction != 0 ? direction : transform.localScale.x; // 정지 중엔 현재 방향 유지
+                    StartCoroutine(DoDash());
+                }
+                break;
+            
             default:
                 Debug.Log("WTF? What is this Input Action Type?");
                 break;
@@ -212,6 +244,12 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     private void Run()
     {
+        // 대쉬 중이면 이동/점프 로직 실행하지 않음
+        if (isDashing)
+        {
+            return;
+        }
+        
         #region wall sticky bug solve
 
         if (direction > 0 && isTouchingWallRight())
@@ -251,6 +289,8 @@ public class PlayerMovement : MonoBehaviour
         rigidbody.AddForce(movement * Vector2.right, ForceMode2D.Force);
     }
     
+    
+    
     /// <summary>
     /// 바닥에 착지했는지 확인용 코드
     /// </summary>
@@ -281,5 +321,34 @@ public class PlayerMovement : MonoBehaviour
         bool isTouchingWall = wallColliderRight.IsTouchingLayers(wallLayer);
         
         return isTouchingWall;
+    }
+
+    
+    
+    IEnumerator DoDash()
+    {
+        isDashing = true;
+        canDash = false;
+        OnDashStart?.Invoke();
+
+        // 기존 값 백업
+        float originalGravity = rigidbody.gravityScale;
+
+        // 중력 제거
+        rigidbody.gravityScale = 0f;
+
+        // 수평 속도 고정
+        rigidbody.linearVelocity = new Vector2(dashDirection * dashSpeed, 0f);
+
+        yield return new WaitForSeconds(dashTime); // 대쉬 지속 시간
+
+        // 대쉬 종료
+        rigidbody.gravityScale = originalGravity;
+        rigidbody.linearVelocity = Vector2.zero;
+        isDashing = false;
+        OnDashEnd?.Invoke();
+        
+        yield return new WaitForSeconds(dashCooldown - dashTime);
+        canDash = true;
     }
 }

@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7106ec64-07f9-4d0e-9fd5-1eb43085642c" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/InputHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/596c076cf64746c4b5da79f10d7623fb2f200/e8/063b2647/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/0_COMMON/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/TrailEffectController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/TrailEffectPrefab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ProtoJam-2023-03/ProtoJam_March/Assets/Scripts/GhostTrailController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ProtoJam-2023-03/ProtoJam_March/Assets/Scripts/GhostTrailPrefabScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../ProtoJam-2023-03/ProtoJam_March/Assets/Scripts/playerScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -91,6 +99,7 @@
       <workItem from="1755346325685" duration="7279000" />
       <workItem from="1755440239574" duration="3678000" />
       <workItem from="1755529522721" duration="1590000" />
+      <workItem from="1755936977263" duration="4757000" />
     </task>
     <servers />
   </component>
