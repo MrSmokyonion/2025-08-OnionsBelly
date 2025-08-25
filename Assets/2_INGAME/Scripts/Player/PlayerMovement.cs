@@ -76,18 +76,32 @@ public class PlayerMovement : MonoBehaviour
     private bool canDash;
     private bool isDashing;        // 대쉬 중 여부
     private float dashDirection;      // 대쉬 방향 저장
+
+    private PLAYER_STATE_JUMP playerJumpState;
     
     private Rigidbody2D rigidbody;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        animator = GetComponentInChildren<Animator>();
+        
         direction = 0;
         coyoteTimeCounter = 0;
         defaultgrav = rigidbody.gravityScale;
         isDashing = false;
         canDash = true;
+        playerJumpState = PLAYER_STATE_JUMP.GROUND;
+        //Invoke("sdfsdf", 1f);
+    }
+
+    private void sdfsdf()
+    {
+        OnDashStart();
     }
 
     private void OnEnable()
@@ -101,7 +115,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // 대쉬 중이면 이동/점프 로직 실행하지 않음
         if (isDashing)
@@ -114,7 +128,18 @@ public class PlayerMovement : MonoBehaviour
         {
             coyoteTimeCounter = CoyoteTime;
             jumpCount = 0;
-            //Debug.Log("Player is On Ground");
+
+            if (playerJumpState == PLAYER_STATE_JUMP.GROUND)
+            {
+                // 아무것도 안함.
+            }
+            else if (playerJumpState == PLAYER_STATE_JUMP.FALLING)
+            {
+                playerJumpState = PLAYER_STATE_JUMP.GROUND;
+                animator.SetTrigger("landing");
+            }
+            
+            Debug.Log("Player is On Ground");
         }
         else
         {
@@ -144,6 +169,12 @@ public class PlayerMovement : MonoBehaviour
                     floatedtime = 0f;
                     rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocity.x, 0f);
                     legCollider.enabled = true;
+                    
+                    if (playerJumpState != PLAYER_STATE_JUMP.FALLING)
+                    {
+                        playerJumpState = PLAYER_STATE_JUMP.FALLING;
+                        animator.SetTrigger("falling");
+                    }
                 }
             }
         }
@@ -179,14 +210,19 @@ public class PlayerMovement : MonoBehaviour
                 if (moveInput.x > 0)
                 {
                     direction = 1;
+                    if(spriteRenderer.flipX == true) spriteRenderer.flipX = false;
+                    animator.SetBool("run", true);
                 }
                 else if (moveInput.x < 0)
                 {
                     direction = -1;
+                    if(spriteRenderer.flipX == false) spriteRenderer.flipX = true;
+                    animator.SetBool("run", true);
                 }
                 else if (moveInput.x == 0)
                 {
                     direction = 0;
+                    animator.SetBool("run", false);
                 }
                 break;
             
@@ -205,6 +241,9 @@ public class PlayerMovement : MonoBehaviour
                         isJumpKeyEnd = false;
                         legCollider.enabled = false;
                         jumpCount++;
+                        
+                        animator.SetTrigger("jump");
+                        playerJumpState = PLAYER_STATE_JUMP.JUMP;
                     } else if (maxJumps > jumpCount)
                     {
                         coyoteTimeCounter = -1f;
@@ -213,6 +252,9 @@ public class PlayerMovement : MonoBehaviour
                         isJumpKeyEnd = false;
                         legCollider.enabled = false;
                         jumpCount++;
+                        
+                        animator.SetTrigger("jump");
+                        playerJumpState = PLAYER_STATE_JUMP.JUMP;
                     }
                 }
 
@@ -350,5 +392,13 @@ public class PlayerMovement : MonoBehaviour
         
         yield return new WaitForSeconds(dashCooldown - dashTime);
         canDash = true;
+    }
+
+    enum PLAYER_STATE_JUMP
+    {
+        GROUND,
+        JUMP,
+        FALLING,
+        LANDING
     }
 }

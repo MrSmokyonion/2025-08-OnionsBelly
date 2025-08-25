@@ -37,16 +37,16 @@ public class InputHandler : SingletonMonoBehaviour<InputHandler>
                 switch (context.phase)
                 {
                     case InputActionPhase.Started:
-                        //Debug.Log("Move 시작!");
+                        Debug.Log("Move 시작!");
                         break;
                     case InputActionPhase.Performed:
                         Vector2 move = context.ReadValue<Vector2>();
                         OnInputAction(InputActionType.Move, move);
-                        //Debug.Log($"Move 중: {move}");
+                        Debug.Log($"Move 중: {move}");
                         break;
                     case InputActionPhase.Canceled:
                         OnInputAction(InputActionType.Move, Vector2.zero);
-                        //Debug.Log("Move 끝남!");
+                        Debug.Log("Move 끝남!");
                         break;
                 }
                 break;
@@ -55,12 +55,12 @@ public class InputHandler : SingletonMonoBehaviour<InputHandler>
                 if (context.performed)
                 {
                     OnInputAction(InputActionType.Jump, true);
-                    //Debug.Log("Jumped!");
+                    Debug.Log("Jumped!");
                 }
                 else if(context.canceled)
                 {
                     OnInputAction(InputActionType.Jump, false);
-                    //Debug.Log("Jump end!");
+                    Debug.Log("Jump end!");
                 }
                 break;
             
@@ -68,7 +68,7 @@ public class InputHandler : SingletonMonoBehaviour<InputHandler>
                 if (context.performed)
                 {
                     OnInputAction(InputActionType.Dash, null);
-                    //Debug.Log("Jumped!");
+                    Debug.Log("Jumped!");
                 }
                 break;
         }

@@ -54,7 +54,9 @@ public class TrailEffectController : MonoBehaviour
             {
                 trailSpawnTimer = 0f;
                 GameObject trail = Instantiate(TrailEffectPrefab, playerMovement.transform.position, playerMovement.transform.rotation);
-                trail.GetComponent<SpriteRenderer>().sprite = childSpriteRenderer.sprite;
+                SpriteRenderer trailSR = trail.GetComponent<SpriteRenderer>();
+                trailSR.sprite = childSpriteRenderer.sprite;
+                trailSR.flipX = childSpriteRenderer.flipX;
                 trail.transform.SetParent(null);
             }
         }
