@@ -71,6 +71,14 @@ public class InputHandler : SingletonMonoBehaviour<InputHandler>
                     Debug.Log("Jumped!");
                 }
                 break;
+            
+            case "Interact":
+                if (context.performed)
+                {
+                    OnInputAction(InputActionType.Interact, null);
+                    Debug.Log("Interacted!");
+                }
+                break;
         }
     }
 
@@ -79,5 +87,6 @@ public class InputHandler : SingletonMonoBehaviour<InputHandler>
         Move,
         Jump,
         Dash,
+        Interact,
     }
 }

@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7106ec64-07f9-4d0e-9fd5-1eb43085642c" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2_INGAME/Prefab/Player Trail Effect Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_INGAME/Prefab/Player Trail Effect Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/InputHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +21,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/596c076cf64746c4b5da79f10d7623fb2f200/e8/063b2647/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/0_COMMON/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2_INGAME/Scripts/Item/ItemBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2_INGAME/Scripts/Item/ItemController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2_INGAME/Scripts/Item/Item_WhiteBread.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/TrailEffectController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/2_INGAME/Scripts/Player/TrailEffectPrefab.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../ProtoJam-2023-03/ProtoJam_March/Assets/Scripts/GhostTrailController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../ProtoJam-2023-03/ProtoJam_March/Assets/Scripts/GhostTrailPrefabScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../ProtoJam-2023-03/ProtoJam_March/Assets/Scripts/playerScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -51,7 +53,7 @@
 }</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.49f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\work\2025-08-OnionsBelly -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\work\2025-08-OnionsBelly" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -59,7 +61,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unity 시작" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.49f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\work\2025-08-OnionsBelly -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\work\2025-08-OnionsBelly" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -100,6 +102,7 @@
       <workItem from="1755529522721" duration="1590000" />
       <workItem from="1755936977263" duration="6066000" />
       <workItem from="1756043541270" duration="940000" />
+      <workItem from="1756389946145" duration="3586000" />
     </task>
     <servers />
   </component>

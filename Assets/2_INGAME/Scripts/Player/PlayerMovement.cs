@@ -139,7 +139,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetTrigger("landing");
             }
             
-            Debug.Log("Player is On Ground");
+            //Debug.Log("Player is On Ground");
         }
         else
         {
@@ -276,7 +276,7 @@ public class PlayerMovement : MonoBehaviour
                 break;
             
             default:
-                Debug.Log("WTF? What is this Input Action Type?");
+                //Debug.Log("WTF? What is this Input Action Type?");
                 break;
         }
     }
