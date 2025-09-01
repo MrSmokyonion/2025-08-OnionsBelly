@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Minimap
   - Ground
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: TrailEffect
     uniqueID: 3579983771
+    locked: 0
+  - name: Portal
+    uniqueID: 439433705
     locked: 0
   - name: Item
     uniqueID: 941773721

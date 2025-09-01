@@ -26,7 +26,6 @@ public class ItemController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("cfvghbjnkml");
         if (other.CompareTag("Player"))
         {
             uiCanvas.SetActive(true);   
