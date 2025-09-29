@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -52,6 +53,9 @@ TagManager:
     locked: 0
   - name: Portal
     uniqueID: 439433705
+    locked: 0
+  - name: Obstacle
+    uniqueID: 721963665
     locked: 0
   - name: Item
     uniqueID: 941773721
