@@ -45,9 +45,6 @@ TagManager:
   - name: Background
     uniqueID: 2390650301
     locked: 0
-  - name: Platform
-    uniqueID: 2579882905
-    locked: 0
   - name: TrailEffect
     uniqueID: 3579983771
     locked: 0
@@ -62,6 +59,12 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2310821353
+    locked: 0
+  - name: Platform
+    uniqueID: 2579882905
+    locked: 0
+  - name: Foreground
+    uniqueID: 827818625
     locked: 0
   - name: UI
     uniqueID: 565923501

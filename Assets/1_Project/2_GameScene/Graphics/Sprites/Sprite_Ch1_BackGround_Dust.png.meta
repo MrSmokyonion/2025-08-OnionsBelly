@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 99d484e61a227124bb4697e77ae7281e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8324357400982311002
+    second: Sprite_Ch1_BackGround_Dust_0
+  - first:
+      213: 8066830518443970248
+    second: Sprite_Ch1_BackGround_Dust_1
+  - first:
+      213: 157463169279135627
+    second: Sprite_Ch1_BackGround_Dust_2
+  - first:
+      213: -8716502472987428105
+    second: Sprite_Ch1_BackGround_Dust_3
+  - first:
+      213: -1534640635003430735
+    second: Sprite_Ch1_BackGround_Dust_4
+  - first:
+      213: 7998517830145939654
+    second: Sprite_Ch1_BackGround_Dust_5
+  - first:
+      213: 4670768341205739647
+    second: Sprite_Ch1_BackGround_Dust_6
+  - first:
+      213: 5429793902657238119
+    second: Sprite_Ch1_BackGround_Dust_7
+  - first:
+      213: 3144750202613789812
+    second: Sprite_Ch1_BackGround_Dust_8
+  - first:
+      213: -9101480286433669524
+    second: Sprite_Ch1_BackGround_Dust_9
+  - first:
+      213: -2659606449224343099
+    second: Sprite_Ch1_BackGround_Dust_10
+  - first:
+      213: -5338452386865627384
+    second: Sprite_Ch1_BackGround_Dust_11
+  - first:
+      213: 3203037928630127212
+    second: Sprite_Ch1_BackGround_Dust_12
+  - first:
+      213: 5867082885585861322
+    second: Sprite_Ch1_BackGround_Dust_13
+  - first:
+      213: -6097906291703075288
+    second: Sprite_Ch1_BackGround_Dust_14
+  - first:
+      213: -1583785642951699070
+    second: Sprite_Ch1_BackGround_Dust_15
+  - first:
+      213: 2227434772233178737
+    second: Sprite_Ch1_BackGround_Dust_16
+  - first:
+      213: 862009235206804711
+    second: Sprite_Ch1_BackGround_Dust_17
+  - first:
+      213: 8803739807083912120
+    second: Sprite_Ch1_BackGround_Dust_18
+  - first:
+      213: -3608616962753799827
+    second: Sprite_Ch1_BackGround_Dust_19
+  - first:
+      213: -4838857698377047488
+    second: Sprite_Ch1_BackGround_Dust_20
+  - first:
+      213: -6584105471028690668
+    second: Sprite_Ch1_BackGround_Dust_21
+  - first:
+      213: -6927908750326888813
+    second: Sprite_Ch1_BackGround_Dust_22
+  - first:
+      213: 3891652512170824827
+    second: Sprite_Ch1_BackGround_Dust_23
+  - first:
+      213: -7628053892260299278
+    second: Sprite_Ch1_BackGround_Dust_24
+  - first:
+      213: 2236207908183342395
+    second: Sprite_Ch1_BackGround_Dust_25
+  - first:
+      213: 7622462411208811808
+    second: Sprite_Ch1_BackGround_Dust_26
+  - first:
+      213: -1611546081206418211
+    second: Sprite_Ch1_BackGround_Dust_27
+  - first:
+      213: -1889468102057213590
+    second: Sprite_Ch1_BackGround_Dust_28
+  - first:
+      213: -5272056132018676496
+    second: Sprite_Ch1_BackGround_Dust_29
+  - first:
+      213: -1724900854868310794
+    second: Sprite_Ch1_BackGround_Dust_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_0
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 993
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af2e035c01f97c80800000000000000
+      internalID: -8324357400982311002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_1
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 981
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce022bdd9323ff60800000000000000
+      internalID: 8066830518443970248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_2
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 958
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f071e0beb6f2200800000000000000
+      internalID: 157463169279135627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 944
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa35cdce23c80780800000000000000
+      internalID: -8716502472987428105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_4
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 936
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b89dbc297cd3bae0800000000000000
+      internalID: -1534640635003430735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_5
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 946
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c81a7ba691700f60800000000000000
+      internalID: 7998517830145939654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_6
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 913
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7865bd3f07e1d040800000000000000
+      internalID: 4670768341205739647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_7
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 885
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764777349c08a5b40800000000000000
+      internalID: 5429793902657238119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_8
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 890
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474f12ec5a564ab20800000000000000
+      internalID: 3144750202613789812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 882
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e86e4b6eb01b180800000000000000
+      internalID: -9101480286433669524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_10
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 862
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c125af860e271bd0800000000000000
+      internalID: -2659606449224343099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 820
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fb986a6d10ae5b0800000000000000
+      internalID: -5338452386865627384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_12
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 750
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a0a12960a737c20800000000000000
+      internalID: 3203037928630127212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_13
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 746
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca7e1f9cc01c6150800000000000000
+      internalID: 5867082885585861322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_14
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 703
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e2b692982ef5ba0800000000000000
+      internalID: -6097906291703075288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 664
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28510875953450ae0800000000000000
+      internalID: -1583785642951699070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_16
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 657
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ecf47bf1079ee10800000000000000
+      internalID: 2227434772233178737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_17
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 663
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e49b9115d876fb00800000000000000
+      internalID: 862009235206804711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_18
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 590
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbd338d5ba2d2a70800000000000000
+      internalID: 8803739807083912120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_19
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 586
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d695c9cddfd9bedc0800000000000000
+      internalID: -3608616962753799827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_20
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 591
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04262998f8ce8dcb0800000000000000
+      internalID: -4838857698377047488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_21
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 501
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41101ab45fe80a4a0800000000000000
+      internalID: -6584105471028690668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_22
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 482
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396027c72bf1bdf90800000000000000
+      internalID: -6927908750326888813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_23
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 439
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74d239475de10630800000000000000
+      internalID: 3891652512170824827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_24
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 412
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdf9407665b32690800000000000000
+      internalID: -7628053892260299278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_25
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 392
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dff2b9e3b980f10800000000000000
+      internalID: 2236207908183342395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_26
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 377
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0256edd6d2d68c960800000000000000
+      internalID: 7622462411208811808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_27
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 367
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4c482a063a2a9e0800000000000000
+      internalID: -1611546081206418211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_28
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 259
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61c272a5c247c5e0800000000000000
+      internalID: -1889468102057213590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_29
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 264
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc5b1761e4e5d6b0800000000000000
+      internalID: -5272056132018676496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Ch1_BackGround_Dust_30
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 258
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f48ec8bfcbef08e0800000000000000
+      internalID: -1724900854868310794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprite_Ch1_BackGround_Dust_0: -8324357400982311002
+      Sprite_Ch1_BackGround_Dust_1: 8066830518443970248
+      Sprite_Ch1_BackGround_Dust_10: -2659606449224343099
+      Sprite_Ch1_BackGround_Dust_11: -5338452386865627384
+      Sprite_Ch1_BackGround_Dust_12: 3203037928630127212
+      Sprite_Ch1_BackGround_Dust_13: 5867082885585861322
+      Sprite_Ch1_BackGround_Dust_14: -6097906291703075288
+      Sprite_Ch1_BackGround_Dust_15: -1583785642951699070
+      Sprite_Ch1_BackGround_Dust_16: 2227434772233178737
+      Sprite_Ch1_BackGround_Dust_17: 862009235206804711
+      Sprite_Ch1_BackGround_Dust_18: 8803739807083912120
+      Sprite_Ch1_BackGround_Dust_19: -3608616962753799827
+      Sprite_Ch1_BackGround_Dust_2: 157463169279135627
+      Sprite_Ch1_BackGround_Dust_20: -4838857698377047488
+      Sprite_Ch1_BackGround_Dust_21: -6584105471028690668
+      Sprite_Ch1_BackGround_Dust_22: -6927908750326888813
+      Sprite_Ch1_BackGround_Dust_23: 3891652512170824827
+      Sprite_Ch1_BackGround_Dust_24: -7628053892260299278
+      Sprite_Ch1_BackGround_Dust_25: 2236207908183342395
+      Sprite_Ch1_BackGround_Dust_26: 7622462411208811808
+      Sprite_Ch1_BackGround_Dust_27: -1611546081206418211
+      Sprite_Ch1_BackGround_Dust_28: -1889468102057213590
+      Sprite_Ch1_BackGround_Dust_29: -5272056132018676496
+      Sprite_Ch1_BackGround_Dust_3: -8716502472987428105
+      Sprite_Ch1_BackGround_Dust_30: -1724900854868310794
+      Sprite_Ch1_BackGround_Dust_4: -1534640635003430735
+      Sprite_Ch1_BackGround_Dust_5: 7998517830145939654
+      Sprite_Ch1_BackGround_Dust_6: 4670768341205739647
+      Sprite_Ch1_BackGround_Dust_7: 5429793902657238119
+      Sprite_Ch1_BackGround_Dust_8: 3144750202613789812
+      Sprite_Ch1_BackGround_Dust_9: -9101480286433669524
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
