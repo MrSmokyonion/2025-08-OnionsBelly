@@ -7,8 +7,6 @@
     <list default="true" id="7106ec64-07f9-4d0e-9fd5-1eb43085642c" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2_Scene/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scene/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Renderer2D.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Renderer2D.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/0_Common/Scripts/Model/StageModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/0_Common/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/1_Project/2_GameScene/Scripts/Interface/ITransitionableUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/1_Project/2_GameScene/Scripts/LineTextureController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraEffectHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -62,7 +62,7 @@
       <method v="2" />
     </configuration>
     <configuration name="독립실행형 플레이어" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../OnionsBelly_dev_move\OnionsBelly.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../OnionsBelly_DEV_Concept2\OnionsBelly.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\work\OnionsBelly_dev_move" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -137,6 +137,7 @@
       <workItem from="1758422403701" duration="1851000" />
       <workItem from="1758958331091" duration="6159000" />
       <workItem from="1759159046237" duration="8268000" />
+      <workItem from="1759325564514" duration="1183000" />
     </task>
     <servers />
   </component>
