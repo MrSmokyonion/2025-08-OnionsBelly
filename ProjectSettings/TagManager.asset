@@ -66,6 +66,9 @@ TagManager:
   - name: Foreground
     uniqueID: 827818625
     locked: 0
+  - name: ShockWaveEffect
+    uniqueID: 2657028157
+    locked: 0
   - name: UI
     uniqueID: 565923501
     locked: 0
