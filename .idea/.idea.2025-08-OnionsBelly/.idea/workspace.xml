@@ -6,7 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="7106ec64-07f9-4d0e-9fd5-1eb43085642c" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-08-OnionsBelly/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0_Common/Graphics/Materials/Player/MAT_Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Common/Graphics/Materials/Player/MAT_Player.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0_Common/Graphics/Shader/asdasd.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Common/Graphics/Shader/asdasd.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0_Common/Graphics/Textures/Sprite_Nob.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0_Common/Graphics/Textures/Sprite_Nob.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1_Project/2_GameScene/Graphics/Sprites/Sprite_Ch1_Platform_01_Grass_Green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1_Project/2_GameScene/Graphics/Sprites/Sprite_Ch1_Platform_01_Grass_Green.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2_Scene/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2_Scene/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NuGet.config.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NuGet.config.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0/Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0/Icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Microsoft.Bcl.TimeProvider.8.0.0/Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Microsoft.Bcl.TimeProvider.8.0.0/Icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/R3.1.3.0/Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/R3.1.3.0/Icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.ComponentModel.Annotations.5.0.0/Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/System.ComponentModel.Annotations.5.0.0/Icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/Icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/System.Threading.Channels.8.0.0/Icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,14 +34,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/0_Common/Scripts/GamePlay/HitPauseHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/0_Common/Scripts/Interface/ICastModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/0_Common/Scripts/Interface/IStageGeneratable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/0_Common/Scripts/Model/StageModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/0_Common/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/0_COMMON/Scripts/GamePlay/HitPauseHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/0_COMMON/Scripts/GrassExternalVelocityTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/0_COMMON/Scripts/Interface/ICastModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/0_COMMON/Scripts/Interface/IStageGeneratable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/0_COMMON/Scripts/Model/StageModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/0_COMMON/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/1_Project/2_GameScene/Scripts/Interface/ITransitionableUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/1_Project/2_GameScene/Scripts/LineTextureController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraEffectHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ShockWaveMNG.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -50,15 +69,11 @@
 }</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.58f2/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\work\2025-08-OnionsBelly -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\work\2025-08-OnionsBelly" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="독립실행형 플레이어" type="RunUnityExe" factoryName="Unity Executable">
@@ -67,22 +82,14 @@
       <option name="WORKING_DIRECTORY" value="C:\work\OnionsBelly_dev_move" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unity 시작" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.58f2/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\work\2025-08-OnionsBelly -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\work\2025-08-OnionsBelly" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unity 에디터에 연결" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -90,13 +97,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Unreal 에디터에 연결 후 재생" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -104,13 +107,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="기기에 연결" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
@@ -138,6 +137,7 @@
       <workItem from="1758958331091" duration="6159000" />
       <workItem from="1759159046237" duration="8268000" />
       <workItem from="1759325564514" duration="1183000" />
+      <workItem from="1759681742900" duration="9335000" />
     </task>
     <servers />
   </component>
@@ -153,23 +153,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
